@@ -1,0 +1,4 @@
+.user-container {
+    /* background: red;*/
+    background: linear-gradient(to bottom, rgb(239, 239, 239), rgba(128, 195, 240, 0.29));
+}

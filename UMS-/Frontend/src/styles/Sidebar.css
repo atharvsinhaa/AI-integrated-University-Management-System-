@@ -1,0 +1,13 @@
+.sidebar {
+    padding-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 15rem; /* Sidebar width */
+    background-color: #f8f9fa;
+    border-right: 1px solid #ddd; /* Allow sidebar scrolling if content overflows */
+  }

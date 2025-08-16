@@ -1,0 +1,17 @@
+{
+    "name": "ums-project",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "concurrently \"npm run dev --prefix Backend\" \"npm run dev --prefix Frontend\"",
+        "build": "npm run build --prefix Frontend && npm run build --prefix Backend",
+        "start": "npm run start --prefix Backend"
+    },
+    "devDependencies": {
+        "concurrently": "^9.1.2"
+    },
+    "dependencies": {
+        "react-icons": "^5.5.0"
+    }
+}

@@ -1,0 +1,7 @@
+.content {
+    margin-left: 20rem; /* Same as sidebar width */
+    padding: 1rem;
+    width: calc(100% - 20rem); /* Adjust width dynamically */
+  }
+
+  
